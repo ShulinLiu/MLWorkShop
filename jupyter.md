@@ -1,11 +1,11 @@
 # using jupyter notebook with virtual environment
 <!-- MarkdownTOC -->
 
-- [Reference](#reference)
-- [Summary](#summary)
-- [Do it Step by Step](#do-it-step-by-step)
-	- [Create virtual environment in your project folder](#create-virtual-environment-in-your-project-folder)
-	- [install ipykernel](#install-ipykernel)
+- Reference
+- Summary
+- Do it Step by Step
+    - Create virtual environment in your project folder
+    - install ipykernel
 
 <!-- /MarkdownTOC -->
 
@@ -54,7 +54,7 @@ then, activate it
 inside virtual environment install ipykernerl using pip
 
 ```
-(venvname) ~/projectname $ pip3 install ipykerne
+(venvname) ~/projectname $ pip3 install ipykernel
 ```
 
 then install a new kernel
