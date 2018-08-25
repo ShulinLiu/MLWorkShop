@@ -9,17 +9,17 @@ x2 = tf.constant([5,6,7,8])
 a = tf.placeholder("float")
 b = tf.placeholder("float")
   
-#y = tf.multiply(a, b)
-y = tf.add(a,b)
+# #y = tf.multiply(a, b)
+# y = tf.add(a,b)
 
-sess = tf.Session()
+# sess = tf.Session()
   
-print(sess.run(y, feed_dict={a: 3, b: 3}))
+# print(sess.run(y, feed_dict={a: 3, b: 3}))
 
 # multiply
-# result = tf.multiply(x1,x2)
+result = tf.multiply(x1,x2)
 
-# print(result)
+print(result)
 # Tensor("Mul:0", shape=(4,), dtype=int32)
 
 # ############### model 1 #################
